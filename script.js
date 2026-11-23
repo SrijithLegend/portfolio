@@ -43,3 +43,9 @@ document.querySelectorAll('[data-count]').forEach(el => {
   };
   setTimeout(() => requestAnimationFrame(step), reduced ? 0 : 1900);
 });
+
+// ===== scroll reveal =====
+const io = new IntersectionObserver(es => es.forEach(e => {
+  if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
+}), { threshold: .12 });
+document.querySelectorAll('.reveal').forEach(el => io.observe(el));

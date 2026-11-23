@@ -57,9 +57,139 @@
         <span class="hud-tag t3">PALLADIUM-FREE</span>
       </div>
     </section>
-    <section id="about"></section>
-    <section id="experience"></section>
-    <section id="projects"></section>
+    <section id="about">
+      <div class="sec-head"><span class="idx">01</span><h2>Pilot Profile</h2><span class="rule"></span></div>
+      <div class="about-grid">
+        <div class="plate reveal">
+          <p class="mono-label">// DOSSIER</p>
+          <p>I'm a B.Tech student in <b>Computer Science &amp; Business Systems</b> at Chennai Institute of Technology (2025 &ndash; 2029) who builds AI systems that are measured, not guessed. I turn messy real-world inputs like scanned datasheets, market ticks and human corrections into pipelines with held-out accuracy numbers.</p>
+          <p>Currently an <b>AI Intern at Emerson Electric (Fisher)</b>, building multimodal document extraction with the Gemini API.</p>
+          <ul class="specs">
+            <li><span>LOCATION</span>Chennai, IN</li>
+            <li><span>EDUCATION</span>Chennai Institute of Technology</li>
+            <li><span>STATUS</span><em class="online">Online &middot; open to opportunities</em></li>
+          </ul>
+        </div>
+        <div class="plate reveal">
+          <p class="mono-label">// SYSTEMS: AI / ML</p>
+          <div class="chips">
+            <span class="tag">PyTorch</span><span class="tag">TensorFlow</span><span class="tag">Scikit-Learn</span><span class="tag">OpenCV</span><span class="tag">torchvision</span><span class="tag">NLP</span><span class="tag">Semantic Search</span><span class="tag">Multimodal LLMs</span><span class="tag">Document Extraction</span><span class="tag">Model Evaluation</span><span class="tag">INT8 Quantization</span><span class="tag">XGBoost</span>
+          </div>
+          <p class="mono-label">// SYSTEMS: ENGINEERING</p>
+          <div class="chips">
+            <span class="tag">Python</span><span class="tag">Java</span><span class="tag">TypeScript</span><span class="tag">SQL</span><span class="tag">FastAPI</span><span class="tag">SQLAlchemy</span><span class="tag">LangChain</span><span class="tag">LangGraph</span><span class="tag">ChromaDB</span><span class="tag">MySQL</span><span class="tag">Docker</span><span class="tag">GitHub Actions</span><span class="tag">pytest</span><span class="tag">REST APIs</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <div class="sec-head"><span class="idx">02</span><h2>Missions Log</h2><span class="rule"></span></div>
+      <div class="timeline">
+        <article class="mission plate reveal">
+          <header>
+            <div><h3>Artificial Intelligence Intern</h3><p class="org">Emerson Electric (Fisher) &middot; Chennai</p></div>
+            <span class="tag live">NOV 2026 &ndash; PRESENT</span>
+          </header>
+          <ul>
+            <li>Built a multimodal pipeline converting control-valve datasheets into structured Excel, reaching <b>91.3% value accuracy</b> (127 cells, 4 held-out pages) using 300-dpi rendering, zoom tiling and PDF text-layer fusion with the Gemini API.</li>
+            <li>Raised strict value-and-unit accuracy from <b>51.2% &rarr; 69.3%</b> with a second extraction pass that re-reads disputed cells and resolves them by majority vote.</li>
+            <li>Flagged <b>71.8%</b> of remaining wrong cells for human review via rule-based validators that mark unreadable cells instead of guessing.</li>
+          </ul>
+        </article>
+        <article class="mission plate reveal">
+          <header>
+            <div><h3>Machine Learning Intern</h3><p class="org">RealTekh Software Services &middot; Chennai</p></div>
+            <span class="tag">MAY 2026</span>
+          </header>
+          <ul>
+            <li>Developed and deployed an AI-powered LMS question-bank platform automating generation, classification and retrieval for <b>1,000+</b> questions.</li>
+            <li>Built topic and difficulty classifiers plus a similarity engine reaching <b>87% accuracy</b>, cutting manual tagging time by <b>80%+</b>.</li>
+            <li>Engineered REST APIs and semantic search on FastAPI, SQLAlchemy and ChromaDB for <b>sub-second</b> retrieval.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="sec-head"><span class="idx">03</span><h2>The Armory</h2><span class="rule"></span></div>
+      <p class="sec-sub">Each suit built for a different mission. Select one to inspect the source.</p>
+      <div class="armory">
+        <a class="suit plate reveal featured" href="https://github.com/SrijithLegend/Quantum-Fund-v2" target="_blank" rel="noopener">
+          <span class="mk">MK-01</span>
+          <h3>Quantum Fund</h3>
+          <p>ML quant trading system: XGBoost on 15 engineered features, 60-day walk-forward backtests on 2-min NSE data, risk controls with a 7% drawdown circuit breaker.</p>
+          <div class="chips"><span class="tag">XGBoost</span><span class="tag">Python</span><span class="tag">Backtesting</span></div>
+        </a>
+        <a class="suit plate reveal featured" href="https://github.com/SrijithLegend/Self-Improving-Agent" target="_blank" rel="noopener">
+          <span class="mk">MK-02</span>
+          <h3>SIA: Self-Improving Agent</h3>
+          <p>Library/CLI that turns human-verified corrections into held-out tests and blocks prompt changes that score worse. Scores rose 0.77&rarr;0.85 and 0.84&rarr;0.93.</p>
+          <div class="chips"><span class="tag">LLM Eval</span><span class="tag">Python</span><span class="tag">CLI</span></div>
+        </a>
+        <a class="suit plate reveal featured" href="https://game-theory.tech/" target="_blank" rel="noopener">
+          <span class="mk">MK-03</span>
+          <h3>Gametheory AI</h3>
+          <p>Multi-agent strategic decision simulator modelling competitor, customer and market behaviour. Live microSaaS with early adoption by 30+ users.</p>
+          <div class="chips"><span class="tag">Multi-Agent</span><span class="tag">SaaS</span><span class="tag">Live</span></div>
+        </a>
+        <a class="suit plate reveal" href="https://srijithlegend.github.io/OMEN/" target="_blank" rel="noopener">
+          <span class="mk">MK-04</span>
+          <h3>OMEN</h3>
+          <p>"Oh Memory Exhausted, Noted": a GPU-fit and benchmarking platform that tells you whether a model will fit before you run it.</p>
+          <div class="chips"><span class="tag">GPU</span><span class="tag">Benchmarking</span><span class="tag">Live</span></div>
+        </a>
+        <a class="suit plate reveal" href="https://github.com/SrijithLegend/LLM-from-Scratch" target="_blank" rel="noopener">
+          <span class="mk">MK-05</span>
+          <h3>LLM from Scratch</h3>
+          <p>GPT-style decoder built from first principles in TensorFlow: custom tokenizer, causal self-attention, next-token training pipeline.</p>
+          <div class="chips"><span class="tag">Transformers</span><span class="tag">TensorFlow</span></div>
+        </a>
+        <a class="suit plate reveal" href="https://github.com/SrijithLegend/SparkTrail" target="_blank" rel="noopener">
+          <span class="mk">MK-06</span>
+          <h3>SparkTrail / CyPhy-Trace</h3>
+          <p>Attack-to-impact propagation digital twin for EV chargers and microgrids, tracing how cyber attacks cascade into physical failures.</p>
+          <div class="chips"><span class="tag">Cyber-Physical</span><span class="tag">Digital Twin</span></div>
+        </a>
+        <a class="suit plate reveal" href="https://github.com/SrijithLegend/Luna-Shield" target="_blank" rel="noopener">
+          <span class="mk">MK-07</span>
+          <h3>Luna Shield</h3>
+          <p>Research-backed TypeScript project with an accompanying paper.</p>
+          <div class="chips"><span class="tag">TypeScript</span><span class="tag">Research</span></div>
+        </a>
+        <a class="suit plate reveal" href="https://github.com/SrijithLegend/Visual-Crypography" target="_blank" rel="noopener">
+          <span class="mk">MK-08</span>
+          <h3>Visual Cryptography</h3>
+          <p>AI-enhanced visual cryptography for human-verifiable, privacy-preserving blockchain banking transactions.</p>
+          <div class="chips"><span class="tag">Security</span><span class="tag">Blockchain</span></div>
+        </a>
+        <a class="suit plate reveal" href="https://omni-gamma-three.vercel.app" target="_blank" rel="noopener">
+          <span class="mk">MK-09</span>
+          <h3>Omni</h3>
+          <p>A universal AI conversation platform: one interface across models.</p>
+          <div class="chips"><span class="tag">TypeScript</span><span class="tag">Live</span></div>
+        </a>
+        <a class="suit plate reveal" href="https://github.com/SrijithLegend/PaperLens" target="_blank" rel="noopener">
+          <span class="mk">MK-10</span>
+          <h3>PaperLens</h3>
+          <p>Research-paper intelligence: extracts methods, results and limitations with evidence-backed, source-traceable summaries.</p>
+          <div class="chips"><span class="tag">NLP</span><span class="tag">RAG</span></div>
+        </a>
+        <a class="suit plate reveal" href="https://github.com/SrijithLegend/Just-An-Rather-Very-Intelligent-System" target="_blank" rel="noopener">
+          <span class="mk">MK-11</span>
+          <h3>J.A.R.V.I.S.</h3>
+          <p>Personal voice assistant inspired by the one that started it all.</p>
+          <div class="chips"><span class="tag">Python</span><span class="tag">Voice AI</span></div>
+        </a>
+        <a class="suit plate reveal" href="https://github.com/SrijithLegend/CrediScope" target="_blank" rel="noopener">
+          <span class="mk">MK-12</span>
+          <h3>CrediScope</h3>
+          <p>Multi-model ML engine that scores creditworthiness and investment risk with actionable insights.</p>
+          <div class="chips"><span class="tag">ML</span><span class="tag">FinTech</span></div>
+        </a>
+      </div>
+      <p class="more"><a class="btn" href="https://github.com/SrijithLegend?tab=repositories" target="_blank" rel="noopener">Full arsenal on GitHub &rarr;</a></p>
+    </section>
     <section id="jarvis"></section>
     <section id="contact"></section>
   </main>
