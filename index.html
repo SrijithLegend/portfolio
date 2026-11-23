@@ -12,6 +12,7 @@
 </head>
 <body>
   <div class="grid-bg" aria-hidden="true"></div>
+  <div id="boot" aria-hidden="true"><pre id="boot-log"></pre></div>
 
   <header class="nav">
     <a href="#top" class="brand"><span class="brand-mark"></span>SRIJITH<b>.S</b></a>
@@ -25,7 +26,37 @@
   </header>
 
   <main id="top">
-    <section class="hero" id="hero"></section>
+    <section class="hero" id="hero">
+      <div class="hero-text">
+        <p class="hud-line">&gt; J.A.R.V.I.S. // IDENTITY CONFIRMED</p>
+        <h1>SRIJITH <span>S</span></h1>
+        <p class="role"><span id="typed"></span><i class="caret"></i></p>
+        <p class="lead">19 &middot; Chennai &middot; Building production-grade AI systems: multimodal extraction pipelines, self-improving agents and quantitative trading engines.</p>
+        <div class="cta">
+          <a class="btn primary" href="#projects">View Armory</a>
+          <a class="btn" href="#contact">Open Comms</a>
+        </div>
+        <div class="readouts">
+          <div><b data-count="28">0</b><span>Repos deployed</span></div>
+          <div><b data-count="2">0</b><span>AI internships</span></div>
+          <div><b data-count="91.3" data-dec="1">0</b><span>% extraction acc.</span></div>
+        </div>
+      </div>
+
+      <div class="reactor-wrap" aria-hidden="true">
+        <svg class="gear g1" viewBox="0 0 200 200"><circle cx="100" cy="100" r="88" fill="none" stroke="currentColor" stroke-width="14" stroke-dasharray="10 8"/><circle cx="100" cy="100" r="74" fill="none" stroke="currentColor" stroke-width="3"/></svg>
+        <svg class="gear g2" viewBox="0 0 200 200"><circle cx="100" cy="100" r="90" fill="none" stroke="currentColor" stroke-width="10" stroke-dasharray="6 6"/></svg>
+        <div class="reactor">
+          <div class="ring r1"></div>
+          <div class="ring r2"></div>
+          <div class="coils"></div>
+          <div class="core"></div>
+        </div>
+        <span class="hud-tag t1">PWR OUTPUT 3 GJ/s</span>
+        <span class="hud-tag t2">CORE TEMP NOMINAL</span>
+        <span class="hud-tag t3">PALLADIUM-FREE</span>
+      </div>
+    </section>
     <section id="about"></section>
     <section id="experience"></section>
     <section id="projects"></section>
@@ -37,5 +68,6 @@
     <span>MARK-19 // BUILD 2026</span>
     <span>Designed &amp; engineered by Srijith S</span>
   </footer>
+  <script src="script.js"></script>
 </body>
 </html>
